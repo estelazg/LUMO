@@ -1,0 +1,115 @@
+:root{
+    $primary-50: #FFF2FC;
+    $primary-100: #FFE3FB;
+    $primary-200: #FFC6F6;
+    $primary-300: #FF99EA;
+    $primary-400: #FF5DDC;
+    $primary-500: #FF21D8;
+    $primary-600: #FF00E1;
+    $primary-700: #CF00B2;
+    $primary-800: #A90090;
+    $primary-900: #890672;
+    $primary-950: #5E004F;
+    $primary:       $primary-600;
+
+    $secondary-50:#F6F4FE ;
+    $secondary-100:#EEEBFC ;
+    $secondary-200:#DFDBF9 ;
+    $secondary-300:#C7BDF5 ;
+    $secondary-400:#AA98ED ;
+    $secondary-500:#8D6EE4 ;
+    $secondary-600:#7C4FD8 ;
+    $secondary-700:#6D3DC4 ;
+    $secondary-800:#542F99 ;
+    $secondary-900:#4B2B87 ;
+    $secondary-950:#2E1A5B ;
+    $secondary:   $secondary-800;
+
+    $natural-50: #ffffff;
+    $natural-100: #EFEFEF;
+    $natural-200: #DCDCDC;
+    $natural-300: #BDBDBD;
+    $natural-400: #989898;
+    $natural-500: #7C7C7C;
+    $natural-600: #656565;
+    $natural-700: #525252;
+    $natural-800: #464646;
+    $natural-900: #3D3D3D;
+    $natural-950: #000000;
+    $white:     $natural-50;
+    $success:#0EBA36;
+    $danger:#F74040;
+
+    $lg-pri-s:#FF4EDF;
+    $lg-pri-e:#542F99;
+    $lg-pri:linear-gradient( to right,#FF4EDF, #542F99);
+    $lg-pri-act:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), $lg-pri;
+    $lg-pri-dis:linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), $lg-pri;
+    $lg-bg:linear-gradient( #291B53, #763296,#291B53);
+
+    $gradient-color-intimacy:linear-gradient( to right,$secondary-400, $secondary-700);
+    $gradient-color-closeLevel:linear-gradient( to right,primary-400, $secondary-400);
+    $gradient-color-chatfailed:linear-gradient( to right,#7992FF, $secondary-500);
+    $gradient-color-chatfailed:linear-gradient( to right,#7992FF, $secondary-500);
+    $gradient-color-introduce-card:linear-gradient(primary-400, $secondary-400);
+    $gradient-color-chat-template:linear-gradient( to right,#542F99, #FF00E1,#542F99);
+
+    $border-radius:       .75rem;  //12        //.375rem !default;
+    $border-radius-xs:    .25rem ;//4
+    $border-radius-sm:    .5rem;  //8        //.25rem !default;
+    $border-radius-lg:    1rem;        //.5rem !default;
+    $border-radius-xl:    1.5rem; //24       // 1rem !default;
+    $border-radius-xxl:   2.25rem; //36       // 2rem !default;
+    $border-radius-pill:  50rem !default;
+
+    
+}
+$spacers: (
+  0: 0,
+  1: $spacer * 0.125    //2
+  2: $spacer * .25,     //4
+  3: $spacer * .5,      //8
+  4: $spacer * .75,     //12, 
+  5: $spacer ,          //16
+  6: $spacer * 1.5,     //24
+  7: $spacer * 2,       //32
+  8: $spacer * 2.5,     //40
+  9: $spacer * 3,       //48
+  10: $spacer * 3.5,    //56
+  11: $spacer * 4,      //64
+  
+);
+
+
+.box{
+    background: $primary-pressed-gradient;
+    
+}
+.text-primary{
+    color: $primary-50;
+}
+.text-secondary{
+    color:  $primary-100;
+}
+.text-tertiary{
+    color: $natural-100;  //????
+}
+.text-tabel-button{
+    color: $natural-50; //????
+}
+.text-on-surface{
+    color: $natural-200; //????
+}
+
+.border-surface{
+    border-color: #995EE2; //????
+}
+.message-box-l{
+    border-radius: 0 50px 50px 10px;
+    padding: 4px 12px;
+}
+.message-box-r{
+    border-radius: 50px 0px 10px 50px;
+    padding: 4px 12px;
+
+}
