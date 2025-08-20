@@ -1,0 +1,11 @@
+$lg-pri:linear-gradient( to right,#FF4EDF, #542F99);
+$lg-pri-act:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), $lg-pri;
+$lg-pri-dis:linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), $lg-pri;
+$lg-bg:linear-gradient( #291B53, #763296,#291B53);
+
+$gradient-color-intimacy:linear-gradient( to right,$secondary-400, $secondary-700);
+$gradient-color-closeLevel:linear-gradient( to right,primary-400, $secondary-400);
+$gradient-color-chatfailed:linear-gradient( to right,#7992FF, $secondary-500);
+$gradient-color-chatfailed:linear-gradient( to right,#7992FF, $secondary-500);
+$gradient-color-introduce-card:linear-gradient(primary-400, $secondary-400);
+$gradient-color-chat-template:linear-gradient( to right,#542F99, #FF00E1,#542F99);

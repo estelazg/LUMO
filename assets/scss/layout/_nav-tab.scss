@@ -1,0 +1,56 @@
+.nav-contanier{
+    margin-right: 24px;
+    margin-left: 24px;
+}
+.nav.nav-pills{
+    min-width: 343px;
+    margin: 0 auto;
+    padding: 8px 32px;
+    gap: 8px;
+    justify-content: center;
+}
+.nav-pills {
+    .nav-link{
+        height: 48px;
+        width: 48px;
+        padding: 2px 12px;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 1.4;
+        color: $white;
+        &.active{
+            padding: 12px;
+            box-shadow: 
+            3px 3px 11px 0 rgba(0, 0, 0, 0.25),
+            0 0 18px 0 rgba(0, 0, 0, 0.16)   ;
+            p{
+                display: none;
+            }
+        } 
+    }
+}
+.nav-bg{
+    background: linear-gradient( to right,rgba(255, 78, 223, 0.7), rgba(84, 47, 153, 0.7));
+    
+    box-shadow: 
+        -3px 3px 10px 0 rgba(0, 0, 0, 0.1),
+        -14px 12px 18px 0 rgba(0, 0, 0, 0.09),
+        -31px 28px 25px 0 rgba(0, 0, 0, 0.05),
+        -55px 29px 29px 0 rgba(0, 0, 0, 0.01),
+        -86px 77px 32px 0 rgba(0, 0, 0, 0.0),
+        ;
+    backdrop-filter: blur(24px);
+    border-radius: 100px;
+}
+
+@media (min-width:720px) {
+    .nav-pills {
+    .nav-link{
+        height: 60px;
+        width: 60px;
+        padding: 2px 6px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+}
