@@ -4,25 +4,14 @@
 @import './helpers/variables';
 // @import './helpers/cutome-btn';
 
-.box-text-secondary{
-    padding: 10px;
-    color: $body-secondary-color;
-}
-.box-text-tertiary{
-    padding: 10px;
-    color: $body-tertiary-color;
-}
-.box-text-emphasis{
-    padding: 10px;
-    color: $body-emphasis-color;
-}
-
 
 @import 'bootstrap/scss/bootstrap';
 
 @import './helpers/utilities';
-@import './helpers/gradient';
+@import './helpers/color-gradient';
 @import './layout/nav-tab';
 @import './component/background.scss';
+@import './component/nouislider';
+
 
 

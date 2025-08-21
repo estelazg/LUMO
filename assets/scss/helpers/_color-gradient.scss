@@ -1,0 +1,41 @@
+$lg-pri:linear-gradient( to right,#FF4EDF, #542F99);
+$lg-pri-act:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), $lg-pri;
+$lg-pri-dis:linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), $lg-pri;
+$lg-bg:linear-gradient( #291B53, #763296,#291B53);
+
+//Intimacy
+$gradient-color-intimacy:linear-gradient( to right,$secondary-400, $secondary-700);
+
+//ChatList Introduce card Character card
+$gradient-color-closeLevel:linear-gradient( to right,$primary-400, $secondary-400);
+
+//ChatFailed
+$gradient-color-chatfailed:linear-gradient( to right,#7992FF, $secondary-500);
+
+//ChatTemplate
+$gradient-color-chat-template:linear-gradient( to right,#542F99, #FF00E1,#542F99);
+
+//CloseLevel
+$gradient-closeLevel:linear-gradient( #FFFBB8, #D6A25B);
+
+$supcolor:#D9D9D9;
+
+// test-----
+.gradient-color-intimacy{
+    background: $gradient-color-intimacy;
+}
+.gradient-color-closeLevel{
+    background: $gradient-color-closeLevel;
+}
+.gradient-color-chatfailed{
+    background: $gradient-color-chatfailed;
+}
+.gradient-color-chat-template{
+    background: $gradient-color-chat-template;
+}
+.gradient-closeLevel{
+    background: $gradient-closeLevel;
+}
+.supcolor{
+    background-color: $supcolor;
+}

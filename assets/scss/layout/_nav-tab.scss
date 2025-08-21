@@ -1,9 +1,14 @@
-.nav-contanier{
-    margin-right: 24px;
-    margin-left: 24px;
+.nav-position{
+  position: absolute;
+  bottom: 0; /* 讓導覽列緊貼底部 */
+  left: 50%; /* 讓導覽列的左邊界位於父層的 50% 處 */
+  transform: translateX(-50%); /* 將導覽列往左移動自身寬度的一半 */
+  margin-bottom: 46px;
+}
+.nav-container{
+    min-width:95%;
 }
 .nav.nav-pills{
-    min-width: 343px;
     margin: 0 auto;
     padding: 8px 32px;
     gap: 8px;
@@ -42,15 +47,14 @@
     backdrop-filter: blur(24px);
     border-radius: 100px;
 }
-
-@media (min-width:720px) {
-    .nav-pills {
-    .nav-link{
-        height: 60px;
-        width: 60px;
-        padding: 2px 6px;
-        font-size: 14px;
-        font-weight: 700;
-    }
-}
-}
+// @media (min-width:720px) {
+//     .nav-pills {
+//     .nav-link{
+//         height: 60px;
+//         width: 60px;
+//         padding: 2px 6px;
+//         font-size: 14px;
+//         font-weight: 700;
+//     }
+// }
+// }
