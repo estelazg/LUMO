@@ -1,0 +1,23 @@
+@media (min-width: 576px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 5% 0;
+    overflow-x: hidden;
+  }
+
+  .app-wrapper {
+    width: 375px;
+    height: auto;
+    position: relative;
+  }
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
