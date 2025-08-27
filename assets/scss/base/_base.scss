@@ -4,14 +4,14 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 100%;
-    padding: 5% 0;
+    min-height: 100vh;
+    padding: 20px 0;
     overflow-x: hidden;
   }
 
   .app-wrapper {
     width: 375px;
-    height: auto;
+    height: 765px;
     position: relative;
   }
 }

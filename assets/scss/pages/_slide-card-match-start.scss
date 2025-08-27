@@ -1,0 +1,146 @@
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-12 {
+  font-size: 12px;
+  letter-spacing: 0%;
+}
+.mb-416 {
+  margin-bottom: 416px;
+}
+.mb-224 {
+  margin-bottom: 224px;
+}
+.mb-103 {
+  margin-bottom: 103px;
+}
+.mb-184 {
+  margin-bottom: 184px;
+}
+.slide-card-border {
+  position: relative;
+  border-radius: 24px; /* 想要的圓角 */
+  padding: 4px; /* 邊框厚度 */
+  background: linear-gradient(-20deg, #ba96ea, #ff5ddc);
+}
+
+.slide-card-border > .inner {
+  border-radius: 20px; /* 邊框厚度要扣掉 */
+  background: transparent; /* 卡片背景顏色 */
+}
+
+.slide-card-tag {
+  background: rgba(56, 31, 103, 0.8);
+  padding: 16px;
+  border-radius: 24px;
+  li {
+    background: rgba(0, 0, 0, 0.35);
+    margin-right: 4px;
+    padding: 2px 8px;
+    border-radius: 8px;
+  }
+}
+
+.down-tag {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 32px;
+}
+
+.slide-button-X {
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 50px 50px 50px 50px;
+  width: 100%;
+  &:hover {
+    background: rgba(217, 217, 217, 0.5);
+  }
+  &:active {
+    background: rgba(217, 217, 217, 0.3);
+  }
+  &:focus {
+    background: rgba(217, 217, 217, 0.3);
+  }
+}
+
+.slide-button-like {
+  background: rgba(255, 153, 234, 0.5);
+  border-radius: 50px 50px 50px 50px;
+  width: 100%;
+  &:hover {
+    background: rgba(255, 153, 234, 0.7);
+  }
+  &:active {
+    background: rgba(255, 153, 234, 0.5);
+  }
+  &:focus {
+    background: rgba(255, 153, 234, 0.5);
+  }
+}
+
+.slide-button-hi {
+  color: white;
+  background: linear-gradient(
+    to right,
+    rgba(255, 78, 223, 0.7),
+    rgba(84, 47, 153, 0.7)
+  );
+  box-shadow: -3px 3px 10px 0 rgba(0, 0, 0, 0.1),
+    -14px 12px 18px 0 rgba(0, 0, 0, 0.09), -31px 28px 25px 0 rgba(0, 0, 0, 0.05),
+    -55px 29px 29px 0 rgba(0, 0, 0, 0.01), -86px 77px 32px 0 rgba(0, 0, 0, 0);
+  backdrop-filter: blur(24px);
+  border-radius: 100px;
+  &:hover {
+    color: white;
+    background: linear-gradient(
+      to right,
+      rgba(255, 78, 223, 0.7),
+      rgba(84, 47, 153, 0.7)
+    );
+  }
+  &:active,
+  &:focus {
+    color: white;
+    background: linear-gradient(
+      to right,
+      rgba(249, 159, 232, 0.9),
+      rgba(190, 158, 248, 0.9)
+    );
+  }
+}
+
+.gradient-slide-card {
+  background: linear-gradient(#ffe3fb, #890672);
+}
+
+input::placeholder {
+  color: #ff0000; /* 灰色提示文字 */
+}
+
+.close-hit {
+  .modal-dialog {
+    width: 375px;
+    padding: 44px;
+  }
+  .modal-content {
+    background-color: transparent;
+    border: 0;
+  }
+}
+
+.chat-room-colse-btn {
+  border-radius: 50px;
+  padding: 9px;
+  border: 2px solid #f6f4fe;
+  margin-top: 20px;
+  &:hover,
+  &:active,
+  &:focus {
+    border: 2px solid #f6f4fe;
+  }
+}

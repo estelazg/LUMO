@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>test</title>
+    <title>chat-room-sarah</title>
   </head>
   <body>
     <main class="wrapper">
@@ -32,16 +32,17 @@
             <div class="d-flex">
               <button type="button" class="btn border-0">
                 <img
-                  src="/assets/images/08-icon/State=Disable, icon=phone.svg"
+                  src="/assets/images/08-icon/State=Default, icon=phone.svg"
                   alt=""
                 />
               </button>
-              <button type="button" class="btn border-0">
-                <img
-                  src="/assets/images/08-icon/State=Default, icon=more.svg"
-                  alt=""
-                />
-              </button>
+              <a href="chat-room-list.html">
+                <button type="button" class="btn border-0">
+                  <img
+                    src="/assets/images/08-icon/State=Default, icon=more.svg"
+                    alt=""
+                  /></button
+              ></a>
             </div>
           </div>
         </section>
@@ -56,7 +57,7 @@
                     src="/assets/images/08-icon/State=Default, icon=info.svg"
                     alt="" /></span
               ></span>
-              <span>0%</span>
+              <span>100%</span>
             </div>
             <div>
               <img
@@ -67,9 +68,44 @@
               <span class="chat-dialog-box-left">哈囉，很開心認識你 :)</span
               ><span class="chat-time ms-3">19:23</span>
             </div>
-            <div class="d-flex justify-content-end align-items-center mb-416">
+            <div class="d-flex justify-content-end align-items-center">
               <span class="chat-time me-3">19:23</span>
               <span class="chat-dialog-box-right"> 你好～</span>
+            </div>
+            <div>
+              <img
+                src="../../assets/images/07-Match-slide/2x/chatroom-list/Chatphoto-1@2x.png"
+                alt=""
+                width="38"
+              />
+              <span class="chat-dialog-box-left">你有養寵物嗎</span
+              ><span class="chat-time ms-3">19:23</span>
+            </div>
+            <div class="d-flex justify-content-end align-items-center mb-6">
+              <span class="chat-time me-3">19:23</span>
+              <span class="chat-dialog-box-right">沒有，但我想養貓咪</span>
+            </div>
+            <div class="mb-6">
+              <img
+                src="../../assets/images/07-Match-slide/2x/chatroom-list/Chatphoto-1@2x.png"
+                alt=""
+                width="38"
+              />
+              <span class="chat-dialog-box-left"
+                >我也很喜歡貓咪，我有養一隻</span
+              ><span class="chat-time ms-3">19:23</span>
+            </div>
+            <div class="d-flex justify-content-end align-items-center mb-6">
+              <span class="chat-time me-3">19:23</span>
+              <span class="chat-dialog-box-right"
+                >那我們之後可以約去貓咪咖啡廳～</span
+              >
+            </div>
+            <div class="d-flex justify-content-end align-items-center mb-184">
+              <span class="chat-time me-3">19:23</span>
+              <span class="chat-dialog-box-right"
+                >有一間我常去，就在台北市</span
+              >
             </div>
             <div class="nav-pills nav-bg py-3 px-5">
               <form action="">
@@ -92,11 +128,15 @@
                     <input
                       type="text"
                       class="form-control bg-white rounded-pill text-black w-100"
-                      placeholder="傳送訊息..."
                     />
                   </div>
-                  <a href="../../pages/match-chat/chat-room-lilley-1.html"
-                    ><button type="button" class="btn border-0 p-0">
+                  <a href="chat-room-list.html">
+                    <button
+                      type="button"
+                      class="btn border-0 p-0"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
                       <img
                         src="../../assets/images/08-icon/State=Default, icon=send.svg"
                         alt=""

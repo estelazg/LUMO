@@ -36,10 +36,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 145%;
-  padding: 4px 12px;
+  padding: 8px 12px;
   background: #eeebfc;
   color: #000000;
-  border-radius: 0 50px 50px 10px;
+  border-radius: 0 50px 50px 30px;
 }
 
 .chat-dialog-box-right {
@@ -47,10 +47,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 145%;
-  padding: 4px 12px;
+  padding: 8px 12px;
   background: #eeebfc;
   color: #000000;
-  border-radius: 50px 0px 10px 50px;
+  border-radius: 50px 0px 30px 50px;
 }
 .chat-time {
   font-size: 8px;
@@ -61,6 +61,15 @@
   margin-bottom: 77px;
 }
 
+.mb-372 {
+  margin-bottom: 372px;
+}
+.mb-152 {
+  margin-bottom: 152px;
+}
+.mb-114 {
+  margin-bottom: 114px;
+}
 .close-percent {
   background: linear-gradient(90deg, #ff5ddc, #ba96ea);
   padding: 12px 16px;
