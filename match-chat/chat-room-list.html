@@ -4,48 +4,183 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>test</title>
-    <script type="module" crossorigin src="/LUMO/assets/main-rc6HCC9O.js"></script>
-    <link rel="stylesheet" crossorigin href="/LUMO/assets/main-L0h1JM4X.css">
+    <script type="module" crossorigin src="/LUMO/assets/main-BQX6creP.js"></script>
+    <link rel="stylesheet" crossorigin href="/LUMO/assets/main-BIia4klU.css">
   </head>
   <body>
     <main class="wrapper">
-      <div class="app-wrapper list-bg px-6">
+      <div class="app-wrapper list-bg position-relative">
         <div
-          class="d-flex justify-content-between align-items-center py-6 mb-7"
+          class="d-flex justify-content-between align-items-center py-6 px-6"
         >
           <div><img src="data:image/svg+xml,%3csvg%20width='18'%20height='16'%20viewBox='0%200%2018%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10%203C10%202.44772%209.55228%202%209%202C8.44772%202%208%202.44772%208%203V4.97656L7.02344%205L6.83984%205.00391C5.258%205.08667%204%206.39678%204%208V12H3C2.44772%2012%202%2012.4477%202%2013V14H16V13C16%2012.4477%2015.5523%2012%2015%2012H14V8C14%206.39645%2012.7415%205.08619%2011.1592%205.00391L10.9766%205L10%204.97656V3ZM12%203.09961C14.2827%203.56314%2016%205.58106%2016%208V10.1738C17.1647%2010.5859%2018%2011.6941%2018%2013V14C18%2015.1046%2017.1046%2016%2016%2016H2C0.895431%2016%200%2015.1046%200%2014V13C0%2011.6941%200.835321%2010.5859%202%2010.1738V8C2%205.58106%203.71735%203.56314%206%203.09961V3C6%201.34315%207.34315%200%209%200C10.6569%200%2012%201.34315%2012%203V3.09961Z'%20fill='%23FF4EDF'/%3e%3c/svg%3e" alt="" /></div>
           <h1 class="fs-20 fw-bold text-center">聊天</h1>
           <div><img src="data:image/svg+xml,%3csvg%20width='15'%20height='15'%20viewBox='0%200%2015%2015'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M6.5%200C10.0899%200%2013%202.91015%2013%206.5C13%207.93401%2012.5336%209.25809%2011.7471%2010.333L14.707%2013.293L14.7754%2013.3691C15.0957%2013.7619%2015.0731%2014.3409%2014.707%2014.707C14.3409%2015.0731%2013.7619%2015.0957%2013.3691%2014.7754L13.293%2014.707L10.333%2011.7471C9.25809%2012.5336%207.93401%2013%206.5%2013C2.91015%2013%200%2010.0899%200%206.5C0%202.91015%202.91015%200%206.5%200ZM6.5%202C4.01472%202%202%204.01472%202%206.5C2%208.98528%204.01472%2011%206.5%2011C8.98528%2011%2011%208.98528%2011%206.5C11%204.01472%208.98528%202%206.5%202Z'%20fill='%23FF4EDF'/%3e%3c/svg%3e" alt="" /></div>
         </div>
-        <div class="d-flex friend-list">
+        <div
+          class="d-flex friend-list py-5 ms-5 gap-4 overflow-x-hidden pt-6 mb-5"
+        >
           <img
             src="/LUMO/assets/Chatphoto-1@2x-BQHRkDhR.png"
             alt=""
-            class="w-100"
           />
           <img
-            src="/LUMO/assets/Chatphoto-2@2x-5aR7RICu.png"
+            src="/LUMO/assets/chatroom-image2@2x-B62Qr2dl.png"
             alt=""
-            class="w-100"
           />
           <img
-            src="/LUMO/assets/Chatphoto-3@2x-CXbfCyXe.png"
+            src="/LUMO/assets/chatroom-image3@2x-DJhnxJh9.png"
             alt=""
-            class="w-100"
           />
           <img
-            src="/LUMO/assets/Chatphoto-4@2x-yXYQIbj7.png"
+            src="/LUMO/assets/chatroom-image4@2x-CSgzedFi.png"
             alt=""
-            class="w-100"
           />
           <img
-            src="/LUMO/assets/Chatphoto-5@2x-C_uSObjF.png"
+            src="/LUMO/assets/chatroom-image4@2x-CSgzedFi.png"
             alt=""
-            class="w-100"
           />
         </div>
+        <div class="list-card px-5 position-relative">
+          <div class="d-flex align-items-center justify-content-between">
+            <span class="list-msg fs-5 fw-bold">訊息</span>
+            <span class="list-msg-disable fw-bold"> 已失效</span>
+          </div>
+          <div class="list-talk">
+            <div
+              class="d-flex align-items-center justify-content-between w-100"
+            >
+              <div class="d-flex align-items-center py-2">
+                <img
+                  src="/LUMO/assets/Chatphoto-1@2x-BQHRkDhR.png"
+                  alt=""
+                  class="me-5"
+                />
+                <div>
+                  <span class="d-block fs-6 fw-bold">Sarah </span>
+                  <span class="friend-msg">哈囉，很開心認識你 :)</span>
+                </div>
+              </div>
+              <div class="text-center">
+                <span class="msg-number rounded-circle fw-bold px-2">1</span>
+                <span class="friend-msg fs-10 d-block">19:23</span>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between w-100"
+            >
+              <div class="d-flex align-items-center py-2">
+                <img
+                  src="/LUMO/assets/Chatphoto-2@2x-5aR7RICu.png"
+                  alt=""
+                  class="me-5"
+                />
+                <div>
+                  <span class="d-block fs-6 fw-bold">Lilley</span>
+                  <span class="friend-msg">哈囉，很開心認識你 :)</span>
+                </div>
+              </div>
+              <div class="text-center">
+                <span class="friend-msg fs-10 d-block">15:01</span>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between w-100"
+            >
+              <div class="d-flex align-items-center py-2">
+                <img
+                  src="/LUMO/assets/Chatphoto-3@2x-CXbfCyXe.png"
+                  alt=""
+                  class="me-5"
+                />
+                <div>
+                  <span class="d-block fs-6 fw-bold">DDDD</span>
+                  <span class="friend-msg">理我理我理我理我理我</span>
+                </div>
+              </div>
+              <div class="text-center">
+                <span class="msg-number rounded-pill fw-bold px-2">16</span>
+                <span class="friend-msg fs-10 d-block">13:17</span>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between w-100"
+            >
+              <div class="d-flex align-items-center py-2">
+                <img
+                  src="/LUMO/assets/Chatphoto-4@2x-yXYQIbj7.png"
+                  alt=""
+                  class="me-5"
+                />
+                <div>
+                  <span class="d-block fs-6 fw-bold">AAA</span>
+                  <span class="friend-msg">哈囉，很開心認識你 :)</span>
+                </div>
+              </div>
+              <div class="text-center">
+                <span class="msg-number rounded-circle fw-bold px-2">2</span>
+                <span class="friend-msg fs-10 d-block">13:17</span>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between w-100"
+            >
+              <div class="d-flex align-items-center py-2">
+                <img
+                  src="/LUMO/assets/Chatphoto-5@2x-C_uSObjF.png"
+                  alt=""
+                  class="me-5"
+                />
+                <div>
+                  <span class="d-block fs-6 fw-bold">Ben</span>
+                  <span class="friend-msg">哈囉，很開心認識你 :)</span>
+                </div>
+              </div>
+              <div class="text-center">
+                <span class="friend-msg fs-10 d-block">19:23</span>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between w-100"
+            >
+              <div class="d-flex align-items-center py-2">
+                <img
+                  src="/LUMO/assets/Chatphoto-6@2x-BWiCcSj-.png"
+                  alt=""
+                  class="me-5"
+                />
+                <div>
+                  <span class="d-block fs-6 fw-bold">CC</span>
+                  <span class="friend-msg">哈囉，很開心認識你 :)</span>
+                </div>
+              </div>
+              <div class="text-center">
+                <span class="friend-msg fs-10 d-block">19:23</span>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between w-100"
+            >
+              <div class="d-flex align-items-center py-2">
+                <img
+                  src="/LUMO/assets/Chatphoto-7@2x-AKtX1-Bu.png"
+                  alt=""
+                  class="me-5"
+                />
+                <div>
+                  <span class="d-block fs-6 fw-bold">MOMOMO</span>
+                  <span class="friend-msg">哈囉，很開心認識你 :)</span>
+                </div>
+              </div>
+              <div class="text-center">
+                <span class="msg-number rounded-circle fw-bold px-2">2</span>
+                <span class="friend-msg fs-10 d-block">3:17</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <nav class="nav-position nav-container">
+        <nav class="nav-position nav-container bottom-60">
           <ul class="nav nav-pills nav-bg" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button
@@ -86,7 +221,7 @@
             </li>
             <li class="nav-item" role="presentation">
               <button
-                class="nav-link active"
+                class="nav-link"
                 id="pills-slide-card-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-slide-card"
@@ -119,7 +254,7 @@
             </li>
             <li class="nav-item" role="presentation">
               <button
-                class="nav-link"
+                class="nav-link active"
                 id="pills-chat-list-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-chat-list"
