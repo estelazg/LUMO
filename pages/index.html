@@ -4,38 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.css"
+    />
     <title>index</title>
   </head>
   <body>
-    <main class="position-relative" >
+    <main class="position-relative">
       <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+        <div
+          class="tab-pane fade show active"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+          tabindex="0"
+        >
           <div class="bg-index bg-base">
             <div class="container">
               <h1 class="shadow">container:px-24px</h1>
               <div class="mb-3 shadow-sm">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
               </div>
               <div class="form-check shadow">
-                <input class="form-check-input" type="checkbox" value="" id="checkDefault" checked>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="checkDefault"
+                  checked
+                />
                 <label class="form-check-label" for="checkDefault">
                   Default checkbox
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1" checked>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="radioDefault"
+                  id="radioDefault1"
+                  checked
+                />
                 <label class="form-check-label" for="radioDefault1">
                   Default radio
                 </label>
               </div>
               <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
-                <label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  id="switchCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="switchCheckChecked"
+                  >Checked switch checkbox input</label
+                >
               </div>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
               </div>
               <select class="form-select" aria-label="Default select example">
                 <option selected>Open this select menu</option>
@@ -43,80 +86,145 @@
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
-              
-              <div id="price-slider">
-                
-              </div>
-          </div>
 
+              <div id="price-slider"></div>
+            </div>
+          </div>
         </div>
-        </div>
-        <div class="tab-pane fade" id="pills-quick-match" role="tabpanel" aria-labelledby="pills-quick-match-tab" tabindex="0">
+        <div
+          class="tab-pane fade"
+          id="pills-quick-match"
+          role="tabpanel"
+          aria-labelledby="pills-quick-match-tab"
+          tabindex="0"
+        >
           <%- include('./layout/quick-match-start'); -%>
-          
         </div>
-        <div class="tab-pane fade" id="pills-slide-card" role="tabpanel" aria-labelledby="pills-slide-card-tab" tabindex="0">
+        <div
+          class="tab-pane fade"
+          id="pills-slide-card"
+          role="tabpanel"
+          aria-labelledby="pills-slide-card-tab"
+          tabindex="0"
+        >
           <%- include('./layout/slide-card-match-start'); -%>
-          
         </div>
-        <div class="tab-pane fade" id="pills-group-talk" role="tabpanel" aria-labelledby="pills-group-talk-tab" tabindex="0">
+        <div
+          class="tab-pane fade"
+          id="pills-group-talk"
+          role="tabpanel"
+          aria-labelledby="pills-group-talk-tab"
+          tabindex="0"
+        >
           <%- include('./layout/slide-card-match-start'); -%>
         </div>
-        <div class="tab-pane fade" id="pills-chat-list" role="tabpanel" aria-labelledby="pills-chat-list-tab" tabindex="0">
-        <%- include('./layout/chat-room-list'); -%>
+        <div
+          class="tab-pane fade"
+          id="pills-chat-list"
+          role="tabpanel"
+          aria-labelledby="pills-chat-list-tab"
+          tabindex="0"
+        >
+          <%- include('./layout/chat-room-list'); -%>
         </div>
       </div>
       <nav class="nav-position nav-container">
         <ul class="nav nav-pills nav-bg" id="pills-tab" role="tablist">
-          <li class="nav-item " role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-              <img src="../assets/images/09-nav icon/User.svg" alt="" class="mb-1">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-home"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              <img
+                src="../assets/images/09-nav icon/User.svg"
+                alt=""
+                class="mb-1"
+              />
               <p>個人</p>
             </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-quick-match-tab" data-bs-toggle="pill" data-bs-target="#pills-quick-match" type="button" role="tab" aria-controls="pills-quick-match" aria-selected="false">
-              <img src="../assets/images/09-nav icon/fast match.svg" alt="" >
+            <button
+              class="nav-link"
+              id="pills-quick-match-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-quick-match"
+              type="button"
+              role="tab"
+              aria-controls="pills-quick-match"
+              aria-selected="false"
+            >
+              <img src="../assets/images/09-nav icon/fast match.svg" alt="" />
               <p class="mt-1">探索</p>
             </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-slide-card-tab" data-bs-toggle="pill" data-bs-target="#pills-slide-card" type="button" role="tab" aria-controls="pills-slide-card" aria-selected="false">
-              <img src="../assets/images/09-nav icon/match.svg" alt="" >
+            <button
+              class="nav-link"
+              id="pills-slide-card-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-slide-card"
+              type="button"
+              role="tab"
+              aria-controls="pills-slide-card"
+              aria-selected="false"
+            >
+              <img src="../assets/images/09-nav icon/match.svg" alt="" />
               <p class="mt-1">滑卡</p>
             </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-group-talk-tab" data-bs-toggle="pill" data-bs-target="#pills-group-talk" type="button" role="tab" aria-controls="pills-group-talk" aria-selected="false">
-              <img src="../assets/images/09-nav icon/community.svg" alt="" >
+            <button
+              class="nav-link"
+              id="pills-group-talk-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-group-talk"
+              type="button"
+              role="tab"
+              aria-controls="pills-group-talk"
+              aria-selected="false"
+            >
+              <img src="../assets/images/09-nav icon/community.svg" alt="" />
               <p class="mt-1">群聊</p>
             </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-chat-list-tab" data-bs-toggle="pill" data-bs-target="#pills-chat-list" type="button" role="tab" aria-controls="pills-chat-list" aria-selected="false">
-              <img src="../assets/images/09-nav icon/chat.svg" alt="" >
+            <button
+              class="nav-link"
+              id="pills-chat-list-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-chat-list"
+              type="button"
+              role="tab"
+              aria-controls="pills-chat-list"
+              aria-selected="false"
+            >
+              <img src="../assets/images/09-nav icon/chat.svg" alt="" />
               <p class="mt-1">聊天</p>
             </button>
           </li>
         </ul>
-      
       </nav>
     </main>
-  
-
 
     <script type="module" src="../main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.js"></script>
     <script>
-      var slider = document.getElementById('price-slider');
+      var slider = document.getElementById("price-slider");
 
       noUiSlider.create(slider, {
-          start: [20, 30],
-          connect: true, // 讓兩個滑桿中間的區塊顯示顏色
-          range: {
-              'min': 1,
-              'max': 100
-          }
+        start: [20, 30],
+        connect: true, // 讓兩個滑桿中間的區塊顯示顏色
+        range: {
+          min: 1,
+          max: 100,
+        },
       });
     </script>
   </body>

@@ -6,81 +6,51 @@
     <title>test</title>
   </head>
   <body>
-    <main class="wrapper">
-      <div class="app-wrapper bg-dase gradient-chat-room chat-room px-6">
-        <div class="">
-          <h1 class="fs-5 fw-bold text-center pt-3 mb-7">滑卡</h1>
-        </div>
-        <div class="slide-card-border mb-6">
-          <div class="inner overflow-hidden position-relative">
-            <div class="position-absolute bottom-0 slide-card-tag w-100">
-              <ul class="d-flex mb-3">
-                <li>咖啡</li>
-                <li>爵士樂</li>
-                <li>羽球</li>
-                <li>電影</li>
-              </ul>
-              <div
-                class="d-flex align-items-center w-100 pb-3 mb-3 border-bottom border-white"
-              >
-                <div class="me-4">
-                  <img
-                    src="../../assets/images/07-Match-slide/2x/slide-card/match-image@2x.png"
-                    width="36"
-                    alt=""
-                  />
-                </div>
-                <div class="flex-grow-1">
-                  <h3 class="fs-3 fw-bold text-white">Sarah, 25</h3>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <p class="fs-13 mb-0">
-                      <img
-                        src="../../assets/images/08-icon/State=Default, icon=lacated.svg"
-                        alt=""
-                        width="9"
-                        class="me-2"
-                      />
-                      台灣台北
-                    </p>
-                    <div>
-                      <img
-                        src="../../assets/images/08-icon/State=Default, icon=down.svg"
-                        alt=""
-                        class="down-tag"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="fs-12 mb-3">
-                喜歡在週末探索城市裡的咖啡廳，尋找靈感和美好時光。
-                熱愛爵士樂和攝影，希望能找到一起分享生活的...
-              </div>
-
-              <div class="d-flex justify-content-between">
-                <a href="#" class="w-100 me-4">
-                  <button type="button" class="btn slide-button-X border-0">
-                    <img
-                      src="../../assets/images/08-icon/State=Default, icon=close.svg"
-                      alt=""
-                    /></button
-                ></a>
-                <a href="slide-card-match-end.html" class="w-100">
-                  <button type="button" class="btn slide-button-like border-0">
-                    <img
-                      src="../../assets/images/08-icon/State=Default, icon=like.svg"
-                      alt=""
-                    /></button
-                ></a>
-              </div>
-            </div>
-            <img
-              src="../../assets/images/07-Match-slide/2x/slide-card/match-card photo@2x.png"
-              alt=""
-              class="w-100"
-            />
+    <main class="wrapper position-relative">
+      <div class="app-wrapper bg-dase gradient-chat-room">
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade"
+            id="pills-home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+            tabindex="0"
+          ></div>
+          <div
+            class="tab-pane fade"
+            id="pills-quick-match"
+            role="tabpanel"
+            aria-labelledby="pills-quick-match-tab"
+            tabindex="0"
+          >
+            <%- include('./layout/quick-match-start'); -%>
+          </div>
+          <div
+            class="tab-pane fade show active"
+            id="pills-slide-card"
+            role="tabpanel"
+            aria-labelledby="pills-slide-card-tab"
+            tabindex="0"
+          >
+            <%- include('./layout/slide-card-match-start'); -%>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-group-talk"
+            role="tabpanel"
+            aria-labelledby="pills-group-talk-tab"
+            tabindex="0"
+          >
+            <%- include('./layout/slide-card-match-start'); -%>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-chat-list"
+            role="tabpanel"
+            aria-labelledby="pills-chat-list-tab"
+            tabindex="0"
+          >
+            <%- include('./layout/chat-room-list'); -%>
           </div>
         </div>
         <nav class="nav-position nav-container">
